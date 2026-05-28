@@ -1,0 +1,21 @@
+{
+  "name": "demo-process",
+  "version": "3.0.0",
+  "description": "Super-Packer: Convert any file collection into 495k-word Data Giants for NotebookLM",
+  "main": "process.js",
+  "scripts": {
+    "start": "node --max-old-space-size=26000 process.js",
+    "run": "node --max-old-space-size=26000 process.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.7.1",
+    "epub2": "^3.0.2",
+    "pdf-parse": "^1.1.1",
+    "iconv-lite": "^0.6.3",
+    "chardet": "^2.0.0",
+    "adm-zip": "^0.5.10",
+    "xml2js": "^0.6.2",
+    "glob": "^10.3.10",
+    "commander": "^12.1.0"
+  }
+}
